@@ -1,0 +1,42 @@
+{
+"colorArray":[ "#F1C40F", "#364C62", "#E67E22", "#E74C3C", "#ECF0F1", "#95A5A6", "#16A085", "#27AE60", "#2980B9", "#8E44AD", "#2C3E50", "#F39C12", "#D35400", "#C0392B", "#BDC3C7","#1ABC9C", "#2ECC71", "#E87AC2", "#3498DB", "#9B59B6", "#7F8C8D"],
+
+"segmentValuesArray" : [
+  {"type": "image", "value": "media/2.png", "win": true, "resultText": "A BAG"},
+  {"type": "image", "value": "media/1.png", "win": true, "resultText": "UEFA BALL"},
+  {"type": "image", "value": "media/3.png", "win": true, "resultText": "A CAP"},
+  {"type": "image", "value": "media/4.png", "win": true, "resultText": "A SWEATSHIRT"},
+  {"type": "image", "value": "media/5.png", "win": true, "resultText": "ADIDAS BOOT"},
+  {"type": "image", "value": "media/6.png", "win": true, "resultText": "A WATCH"},
+  {"type": "image", "value": "media/7.png", "win": true, "resultText": "MUG"}
+],
+
+  "svgWidth": 1024,
+  "svgHeight": 768,
+  "wheelStrokeColor": "#cecece",
+  "wheelStrokeWidth": 8,
+  "wheelSize": 700,
+  "wheelTextOffsetY": 80,
+  "wheelTextColor": "#EDEDED",  
+  "wheelTextSize": "2.3em",
+  "wheelImageOffsetY": 50,
+  "wheelImageSize": 100,
+  "centerCircleSize": 360,
+  "centerCircleStrokeColor": "#cecece",
+  "centerCircleStrokeWidth": 8,
+  "centerCircleFillColor": "#EDEDED",
+  "segmentStrokeColor": "#E2E2E2",
+  "segmentStrokeWidth": 4,
+  "centerX": 512,
+  "centerY": 384,  
+  "hasShadows": false,
+  "numSpins": 1 ,
+  "spinDestinationArray":[],
+  "minSpinDuration":6,
+  "gameOverText":"Please fill out the registration form <a href='https://bit.ly/38ENIX7'>HERE</a> <meta http-equiv='refresh' content='7; URL=https://bit.ly/38ENIX7' />",
+  "invalidSpinText":"INVALID SPIN. PLEASE SPIN AGAIN.",
+  "introText":"SPIN TO WIN",
+  "hasSound":true,
+  "gameId":"9a0232ec06bc431114e2a7f3aea03bbe2164f1aa",
+  "clickToSpin":true
+}

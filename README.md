@@ -1,1 +1,1 @@
-# SPIN_LG_EN
+# spin
