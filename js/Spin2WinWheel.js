@@ -1,3 +1,16 @@
+// var txt = '{"name":"John", "age":30, "city":"New York"}'
+// var obj = JSON.parse(txt);
+
+var get1 = document.getElementById("get1").value;
+var get2 = document.getElementById("get2").value;
+
+var txt = '{"get1":"' + get1 + '", "get2":"' + get2 + '"}';
+
+console.log(get1);
+
+var obj = JSON.parse(txt);
+
+
 function Spin2WinWheel() {
 
   var xmlns = "http://www.w3.org/2000/svg",
@@ -98,9 +111,9 @@ function Spin2WinWheel() {
       numSegments = segmentValuesArray.length;
       numSpins = (dataObj.numSpins == -1) ? 9999999999999999 : dataObj.numSpins;
       minSpinDuration = dataObj.minSpinDuration;
-      gameOverText = dataObj.gameOverText;
+      gameOverText = obj.get2;
       invalidSpinText = dataObj.invalidSpinText;
-      introText = dataObj.introText;
+      introText = obj.get1;
       hasSound = dataObj.hasSound;
       gameId = dataObj.gameId;
       clickToSpin = dataObj.clickToSpin;
