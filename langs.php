@@ -2,7 +2,7 @@
 
     $get_lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 
-    $link2 = 'https://mobile-home-x10e.herokuapp.com';
+    $link2 = 'https://mobile-home-x11e.herokuapp.com';
 
 
     $lang_en = array(
